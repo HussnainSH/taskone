@@ -2,7 +2,7 @@ started = False
 stopped = False
 
 while True:
-    car = input(f'>').lower()
+    car = input(f'Enter quit to exit >').lower()
     if car == 'start':
         if started:
             print(f'Car is already started!!')
